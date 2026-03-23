@@ -1,0 +1,88 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(#4a75d1, #192f75);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+}
+
+.app {
+    width: 800px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top-container {
+    display: flex;
+    gap: 20px;
+} 
+
+.search-card,
+.weather-card {
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 6px;
+    flex: 1;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+input {
+    padding: 8px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background: #e4782b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #b65311;
+}
+
+#history span {
+    display: inline-block;
+    background: #ff6a00;
+    color: white;
+    padding: 4px 8px;
+    margin: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.console-card {
+    margin-top: 15px;
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+#consoleOutput {
+    background: #272d3d;
+    color: #00ff9d;
+    padding: 10px;
+    height: 120px;
+    overflow: auto;
+    font-family: monospace;
+    border-radius: 5px;
+}
